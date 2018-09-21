@@ -4,7 +4,7 @@
 ### pip install Django==2.1.1  #安装
 ### python -m django --version  #检测版本
 ### django-admin startproject  mydemo  #创建django项目
-### python manage.py runserver 9999
+### python manage.py runserver 9999 #设定9999端口，默认8000
 
 ### python manage.py startapp blog #创建blog模块
 ### 把blog模块添加到settings.py 的 INSTALLED_APPS 模块
